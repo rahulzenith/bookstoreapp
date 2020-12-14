@@ -3,6 +3,7 @@
 # ~~~~
 
 # An example controller showing a sample home page
+GET     /                          controllers.HomeController.index()
 GET     /books                     controllers.BooksController.index()
 GET     /books/create              controllers.BooksController.create()
 GET     /books/:id                 controllers.BooksController.show(id : Integer)
